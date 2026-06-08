@@ -40,11 +40,9 @@ var monitorCmd = &cobra.Command{
 			fmt.Println(err)
 			return
 		}
-		// Run service
-		startWithContext(ctx, sta)
 
+		startWithContext(ctx, sta)
 		<-sigChan
-		cancel()
 	},
 }
 
