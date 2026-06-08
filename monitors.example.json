@@ -1,52 +1,8 @@
 [
   {
-    "id": "dev01",
-    "name": "Dev01",
-    "url": "https://api-dev01.elateral-dev.io/graphql",
-    "method": "GET",
-    "interval": 10,
-    "enabled": true,
-    "condition": {
-      "value": "401"
-    }
-  },
-  {
-    "id": "dev-green",
-    "name": "Dev Green",
-    "url": "https://api-dev-green.elateral-dev.io/graphql",
-    "method": "GET",
-    "interval": 10,
-    "enabled": true,
-    "condition": {
-      "value": "401"
-    }
-  },
-  {
-    "id": "dev-green2",
-    "name": "Dev Green 2",
-    "url": "https://api-dev-green2.elateral-dev.io/graphql",
-    "method": "GET",
-    "interval": 10,
-    "enabled": true,
-    "condition": {
-      "value": "401"
-    }
-  },
-  {
-    "id": "dev-grey",
-    "name": "Dev Grey",
-    "url": "https://api-dev-grey.elateral-dev.io/graphql",
-    "method": "GET",
-    "interval": 10,
-    "enabled": true,
-    "condition": {
-      "value": "401"
-    }
-  },
-  {
-    "id": "dev-yellow2",
-    "name": "Dev Yellow 2",
-    "url": "https://api-dev-yellow2.elateral-dev.io/graphql",
+    "id": "yellow2",
+    "name": "Yellow",
+    "url": "https://yellow2.dev",
     "method": "GET",
     "interval": 10,
     "enabled": true,
